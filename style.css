@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 1200px;
+}
+/*--------- estilos del  header -------------*/
+header {
+  background-color: rgb(255, 0, 0);
+  color: #fff;
+}
+.box-titulo {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 70px;
+}
+nav {
+  background-color: #c62028;
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 25%);
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 50px;
+}
+li {
+  color: #fff;
+  list-style: none;
+  font-size: 20px;
+}
+/* ----------------estilos del main ------------*/
+.img-fondo {
+  background-image: url(./imagenes/copa3.png);
+  height: 420px;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.img-fondo h3 {
+  color: #f00;
+  padding-bottom: 20px;
+  font-size: 55px;
+  font-weight: 600;
+  letter-spacing: 7px;
+}
+
+.img-contenido {
+  width: 200px;
+}
+
+.contenedor-noticia {
+  width: 400px;
+}
