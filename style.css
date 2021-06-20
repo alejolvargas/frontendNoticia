@@ -82,3 +82,7 @@ li {
   align-content: center;
   justify-content: space-between;
 }
+/*----------- footer------------------ */
+footer {
+  color: #000000;
+}
