@@ -1,11 +1,12 @@
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  color: #ffffff;
 }
 /*--------- estilos del  header -------------*/
 header {
-  background-color: rgb(255, 0, 0);
+  background-color: #ff0000;
   color: #fff;
 }
 .box-titulo {
@@ -23,31 +24,61 @@ nav ul {
   padding: 10px 50px;
 }
 li {
-  color: #fff;
-  list-style: none;
+  color: #ffffff;
   font-size: 20px;
+  list-style: none;
 }
 /* ----------------estilos del main ------------*/
 .img-fondo {
+  align-items: flex-end;
   background-image: url(./imagenes/copa3.png);
-  height: 420px;
   background-size: cover;
   display: flex;
-  align-items: flex-end;
+  height: 420px;
   justify-content: center;
 }
 .img-fondo h3 {
-  color: #f00;
-  padding-bottom: 20px;
+  background-color: #00000099;
+  border-radius: 5px;
+  color: #fff;
   font-size: 55px;
   font-weight: 600;
   letter-spacing: 7px;
+  padding: 20px;
+  margin: 10px;
 }
-
+/*---------------------------- cuerpo de las noticias------------------- */
+.noticias-hoy {
+  text-align: center;
+  padding: 10px;
+  font-size: 32px;
+  background-color: #c62028;
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 25%);
+}
+.contenedor {
+  background-color: #ff0000;
+  align-items: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
 .img-contenido {
-  width: 200px;
+  width: 300px;
+  margin: auto;
+  display: block;
 }
 
 .contenedor-noticia {
-  width: 400px;
+  border: 10px solid #0c0c0c21;
+  border-radius: 2px;
+  background-color: #6969696b;
+  width: 600px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.fecha-nivel {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
 }

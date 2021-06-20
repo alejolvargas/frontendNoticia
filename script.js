@@ -76,14 +76,12 @@ console.log(noticias);
     function crearNoticia(titulo,imagen,descripcion,fecha,naoint) {
       if (naoint){
               let template = `
-      <div>
+      <div class="contenedor-noticia" >
         <h2>${titulo}</h2>
-        <img src="${imagen}" alt="">
+        <img src="${imagen}" alt="noti" class="img-contenido">
         <p>${descripcion}</p>
         <p>fecha de publicacion ${fecha}</p>
-        <p>noticia nacional</p>
-
-      </div>
+        </div>
       `;
       contenedor.innerHTML += template;
 
@@ -91,10 +89,14 @@ console.log(noticias);
                let template = `
         <div class="contenedor-noticia">
         <h2>${titulo}</h2>
-        <img src="${imagen}" alt="" class="img-contenido">
+        <img src="${imagen}" alt="noti" class="img-contenido">
         <p>${descripcion}</p>
+        <div class="fecha-nivel">
         <p>publicada el ${fecha}</p>
-        <p>noticia internacional</p>
+        <i class="fas fa-globe-americas"></i>
+        </div>
+        
+       
       </div>
       `;
       contenedor.innerHTML += template;
